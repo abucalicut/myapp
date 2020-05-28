@@ -52,7 +52,7 @@ class Statedata extends React.Component {
                                     <Card>
                                         <Card.Header>
                                             <Accordion.Toggle as={Button} variant="info" eventKey={key}>
-                                                {itm} <span className="btn btn-dark pr-1 mr-1"> Total Active: {totalActive}</span><span className="btn btn-dark pr-1 mr-1">Total Confirmed: {totalConfirm}</span><span className="btn btn-dark pr-1 mr-1">Total Recovered: {totalRecover}</span><span className="btn btn-dark pr-1 mr-1">Total Deaths: {totalDeaths}</span>
+                                                {itm} <span className="btn btn-secondary pr-1 mr-1"> Total Active: {totalActive}</span><span className="btn btn-secondary pr-1 mr-1">Total Confirmed: {totalConfirm}</span><span className="btn btn-secondary pr-1 mr-1">Total Recovered: {totalRecover}</span><span className="btn btn-secondary pr-1 mr-1">Total Deaths: {totalDeaths}</span>
                                             </Accordion.Toggle>
                                         </Card.Header>
                                         <Accordion.Collapse eventKey={key}>
