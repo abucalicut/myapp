@@ -2,7 +2,7 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Axios from 'axios';
 import { Card, Accordion, Button } from 'react-bootstrap';
-
+import '../Style.css';
 class Statedata extends React.Component {
     constructor() {
         super();
@@ -51,12 +51,12 @@ class Statedata extends React.Component {
                                 return (
                                     <Card>
                                         <Card.Header>
-                                            <Accordion.Toggle as={Button} variant="primary" eventKey={key}>
-                                                {itm} <span className="btn btn-dark pr-1 mr-1"> Total Active:{totalActive}</span><span className="btn btn-dark pr-1 mr-1">Total Confirmed:{totalConfirm}</span><span className="btn btn-dark pr-1 mr-1">Total Recovered:{totalRecover}</span><span className="btn btn-dark pr-1 mr-1">Total Deaths:{totalDeaths}</span>
+                                            <Accordion.Toggle as={Button} variant="info" eventKey={key}>
+                                                {itm} <span className="btn btn-dark pr-1 mr-1"> Total Active: {totalActive}</span><span className="btn btn-dark pr-1 mr-1">Total Confirmed: {totalConfirm}</span><span className="btn btn-dark pr-1 mr-1">Total Recovered: {totalRecover}</span><span className="btn btn-dark pr-1 mr-1">Total Deaths: {totalDeaths}</span>
                                             </Accordion.Toggle>
                                         </Card.Header>
                                         <Accordion.Collapse eventKey={key}>
-                                            <Card.Body>
+                                            <Card.Body className="card-body-table">
 
                                                 <table className="table table-bodered table-striped">
                                                     <thead>

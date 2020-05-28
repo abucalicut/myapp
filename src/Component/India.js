@@ -31,9 +31,9 @@ componentDidMount(){
                                 <Card.Body className="text-center">
                                     <Card.Title>TOTAL CASES</Card.Title>
                                     <Card.Text>
-                                        {this.state.indiaStatus.cases}
+                                      <h3>{this.state.indiaStatus.cases}</h3>  
 </Card.Text>
-                               [Today Cases : {this.state.indiaStatus.todayCases}]
+<h4>[Today Cases : {this.state.indiaStatus.todayCases}]</h4>
                             </Card.Body>
                             </Card>
                         </div>
@@ -42,9 +42,9 @@ componentDidMount(){
                                 <Card.Body className="text-center">
                                     <Card.Title>ACTIVE CASES</Card.Title>
                                     <Card.Text>
-                                    {this.state.indiaStatus.active}
+                                    <h3>{this.state.indiaStatus.active}</h3>
 </Card.Text>
-                               [Today Cases : {this.state.indiaStatus.active}]
+<h4>[Today Cases : NA:]</h4>
                             </Card.Body>
                             </Card>
                         </div>
@@ -53,9 +53,9 @@ componentDidMount(){
                                 <Card.Body className="text-center">
                                     <Card.Title>RECOVERED CASES</Card.Title>
                                     <Card.Text>
-                                    {this.state.indiaStatus.recovered}
+                                    <h3>{this.state.indiaStatus.recovered}</h3>
 </Card.Text>
-                               [Today Cases : {this.state.indiaStatus.recovered}]
+<h4>[Today Cases : NA:]</h4>
                             </Card.Body>
                             </Card>
                         </div>
@@ -64,9 +64,9 @@ componentDidMount(){
                                 <Card.Body className="text-center">
                                     <Card.Title>DEATHS</Card.Title>
                                     <Card.Text>
-                                    {this.state.indiaStatus.deaths}
+                                    <h3>{this.state.indiaStatus.deaths}</h3>
 </Card.Text>
-                               [Today Cases : {this.state.indiaStatus.todayDeaths}]
+<h4>[Today Cases : {this.state.indiaStatus.todayDeaths}]</h4>
                             </Card.Body>
                             </Card>
                         </div>
